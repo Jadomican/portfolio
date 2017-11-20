@@ -9,3 +9,8 @@
 text-align: center;
 width: 100%;
 }
+
+.information {
+text-align: justify;
+font-size: 20px;
+}
