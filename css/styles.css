@@ -20,8 +20,7 @@ body {
 
 }
 
-  #section1 {padding-top:50px;height:500px;}
-  #section2 {padding-top:50px;height:500px;}
-  #section3 {padding-top:50px;height:500px;}
-  #section41 {padding-top:50px;height:500px;}
-  #section42 {padding-top:50px;height:500px;}
+  #home {padding-top:50px;height:500px;}
+  #summary {padding-top:50px;height:500px;}
+  #experience {padding-top:50px;height:500px;}
+  #grades {padding-top:50px;height:500px;}
