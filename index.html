@@ -19,89 +19,106 @@
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
   <div class="container">
-
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand" href="https://jadomican.github.io/IMD_CA2/">Jason Domican</a>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+          </button>
+          <a class="navbar-brand" href="#">Jason Domican</a>
         </div>
-        <ul class="nav navbar-nav">
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a target="_blank" href="https://Github.com/Jadomican/IMD_CA2">GitHub</a>
-          </li>
-          <li>
-            <button type="button" class="btn btn-info contact-me" data-toggle="modal" data-target="#contactModal">Contact Me</button>
-          </li>
-
-
-        </ul>
+        <div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li><a href="#section1">Summary</a></li>
+              <li><a href="#section2">Experience</a></li>
+              <li><a href="#section3">Grades</a></li>
+              <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#section41">Section 4-1</a></li>
+                  <li><a href="#section42">Section 4-2</a></li>
+                </ul>
+              </li>
+              <li>
+                <button type="button" class="btn btn-info contact-me" data-toggle="modal" data-target="#contactModal">Contact Me</button>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </nav>
 
-    <div class="jumbotron">
+    <div id="section1" class="container-fluid jumbotron">
       <h2>Jason Domican</h2>
       <p>Final year student at Institute of Technology Tallaght</p>
       <img class="circular" src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAK1AAAAJDc5MTAyZDFmLTY2MWYtNDU4OS1iMmEwLTA0MDkzNTUzZjkxNQ.jpg">
     </div>
 
-    <div class="information">
 
-      Jason is currently a student at the Institute of Technology Tallaght. Jason's primary area of study is in Software Development,
-      but he has also undergone a wide range of other modules at college and elsewhere.
-      <br />
-      <br /> Jason is currently in his 4th (and final) year as a full-time Bachelor of Science (Honours) candidate in ITT
-      Dublin. During this course Jason has worked on multiple Software Development, Web Design and other Computer Science
-      related projects. Jason attended a full-time work placement internship in the sixth semester of his studies at ITT.
-      <br />
-      <br /> Jason began his IT career in the Summer of 2016, working at
-      <a target="_blank" href="http://exertissupplychain.com/">Exertis Supply Chain Services</a> in the role of IT Support.
-      Via the work placement option offered in the Institute of Technology Tallaght, Jason also worked at
-      <a target="_blank" href="http://aws.amazon.com/">Amazon Web Services</a> in the role of Cloud Support Associate (Intern)
-      for over 7 months. This experience has allowed Jason to broaden his knowledge of IT to encompass not only Software
-      Development, but also Networking, Operating Systems (Windows and Linux), Cloud Computing, Systems Administration and
-      more.
+    <div id="section2" class="container-fluid">
+      <h1>Section 2</h1>
+      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the
+        navigation bar while scrolling!</p>
+      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the
+        navigation bar while scrolling!</p>
+    </div>
+    <div id="section3" class="container-fluid">
+      <h1>Section 3</h1>
+      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the
+        navigation bar while scrolling!</p>
+      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the
+        navigation bar while scrolling!</p>
+    </div>
+    <div id="section41" class="container-fluid">
+      <h1>Section 4 Submenu 1</h1>
+      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the
+        navigation bar while scrolling!</p>
+      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the
+        navigation bar while scrolling!</p>
+    </div>
+    <div id="section42" class="container-fluid">
+      <h1>Section 4 Submenu 2</h1>
+      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the
+        navigation bar while scrolling!</p>
+      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the
+        navigation bar while scrolling!</p>
     </div>
 
-  </div>
+    <!-- Modal -->
+    <div class="modal fade" id="contactModal" role="dialog">
+      <div class="modal-dialog">
 
-  <!-- Modal -->
-  <div class="modal fade" id="contactModal" role="dialog">
-    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Contact Details</h4>
+          </div>
+          <div class="modal-body">
+            <p>E: jadomican@gmail.com</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
 
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Contact Details</h4>
-        </div>
-        <div class="modal-body">
-          <p>E: jadomican@gmail.com</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
       </div>
 
+
     </div>
 
-  </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./js/scripts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+      crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous"></script>
 
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-    crossorigin="anonymous"></script>
-  <script type="text/javascript" src="./js/scripts.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous"></script>
-
-</body>
+    <body>
 
 </html>

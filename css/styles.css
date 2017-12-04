@@ -7,7 +7,6 @@
 
 .container {
 text-align: center;
-width: 100%;
 }
 
 .information {
@@ -16,5 +15,13 @@ font-size: 20px;
 }
 
 body {
-  background-image: url("http://www.yoannbourse.com/ressources/design/teal/background.jpg");
+  background-image: url("http://www.designbolts.com/wp-content/uploads/2012/12/Dust-White-Seamless-pattern-for-website-background.jpg");
+  position: relative; 
+
 }
+
+  #section1 {padding-top:50px;height:500px;}
+  #section2 {padding-top:50px;height:500px;}
+  #section3 {padding-top:50px;height:500px;}
+  #section41 {padding-top:50px;height:500px;}
+  #section42 {padding-top:50px;height:500px;}
