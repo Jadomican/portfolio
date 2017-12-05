@@ -3,6 +3,17 @@
   border-top-right-radius: 50% 50%;
   border-bottom-right-radius: 50% 50%;
   border-bottom-left-radius: 50% 50%;
+  height: 14.7em;
+  width: 14.7em;
+}
+
+.btn.contact-me {
+  padding: 14px 12px;
+  border: solid black 1px;
+}
+
+.bold {
+  font-weight:bold;
 }
 
 .container {
