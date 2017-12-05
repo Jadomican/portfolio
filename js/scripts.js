@@ -3,5 +3,12 @@ $(document).ready(function(){
         alert("Jason can be reached at jadomican@gmail.com");
     });
 
-    $('[data-toggle="tooltip"]').tooltip();   
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+        // mobile code..
+    }
+    else
+    {
+        $('[data-toggle="tooltip"]').tooltip();         
+    }
+
 });

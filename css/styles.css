@@ -46,3 +46,7 @@ body {
     margin-right: 0.5em;
     margin-left: 0.5em; 
 }
+
+.tooltip {
+  font-size: 1em !important; 
+}
