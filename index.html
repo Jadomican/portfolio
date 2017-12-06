@@ -16,64 +16,62 @@
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50" id="home">
 
-  <div class="container">
-
-    <nav class="navbar navbar-default navbar-fixed-top" id="myNav">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+  <nav class="navbar navbar-default navbar-fixed-top" id="myNav">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand bold" href="#home">Jason Domican</a>
-        </div>
-        <div>
-          <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav">
-              <li>
-                <a href="#summary">About Me &nbsp;
+        <a class="navbar-brand bold" href="#home">Jason Domican</a>
+      </div>
+      <div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="#summary">About Me &nbsp;
                   <i class="glyphicon glyphicon-user fa-lg" aria-hidden="true"></i>
                 </a>
-              </li>
-              <li>
-                <a href="#education">Education &nbsp;
+            </li>
+            <li>
+              <a href="#education">Education &nbsp;
                   <i class="fa fa-graduation-cap fa-lg" aria-hidden="true"></i>
                 </a>
-              </li>
-              <li>
-                <a href="#experience">Experience &nbsp;
+            </li>
+            <li>
+              <a href="#experience">Experience &nbsp;
                   <i class="glyphicon glyphicon-briefcase fa-lg" aria-hidden="true"></i>
                 </a>
-              </li>
-              <li>
-                <a href="#interests">Interests &nbsp;
+            </li>
+            <li>
+              <a href="#interests">Interests &nbsp;
                   <i class="fa fa-trophy fa-lg" aria-hidden="true"></i>
                 </a>
-              </li>
-              <li>
-                <button type="button" class="contact-me btn btn-info active" data-toggle="modal" data-target="#contact-modal">Contact Me &nbsp;
+            </li>
+            <li>
+              <button type="button" class="contact-me btn btn-info active" data-toggle="modal" data-target="#contact-modal">Contact Me &nbsp;
                   <i class="fa fa-envelope fa-lg" aria-hidden="true"></i>
                 </button>
-              </li>
-              <li>
-                <form class="navbar-form" role="search" action="https://www.google.com/search" method="get" target="_blank">
-                  <div class="input-group add-on">
-                    <input class="form-control" placeholder="Search" name="q" id="srch-term" type="text">
-                    <div class="input-group-btn">
-                      <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
-                    </div>
+            </li>
+            <li>
+              <form class="navbar-form" role="search" action="https://www.google.com/search" method="get" target="_blank">
+                <div class="input-group add-on">
+                  <input class="form-control" placeholder="Search" name="q" id="srch-term" type="text">
+                  <div class="input-group-btn">
+                    <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
                   </div>
-                </form>
-              </li>
+                </div>
+              </form>
+            </li>
 
-            </ul>
-          </div>
+          </ul>
         </div>
       </div>
-    </nav>
-
-    <div id="home" class="container-fluid jumbotron">
+    </div>
+  </nav>
+  <div class="container">
+    <div id="home" class="jumbotron">
       <div>
         <h2>Jason Domican</h2>
         <p>Student at Institute of Technology Tallaght</p>
@@ -88,7 +86,7 @@
 
     </div>
 
-    <div id="summary" class="container information">
+    <div id="summary" class="information">
       <h1>About Me</h1>
       <a href="https://drive.google.com/uc?export=download&id=0B1UwaAXzvMjKUmNfTXRiQUM5YTQ" class="contact-me btn btn-success active"
         role="button">Download My CV &nbsp;
@@ -112,7 +110,7 @@
         <br>
       </p>
     </div>
-    <div id="education" class="container information">
+    <div id="education" class="information">
       <h1>Education</h1>
 
       <div class="panel-group" id="accordion">
@@ -124,17 +122,279 @@
             </h4>
           </div>
           <div id="collapse1" class="panel-collapse collapse in">
-            <div class="panel-body">2014 - 2018</div>
+            <div class="panel-body">
+              <ul class="nav nav-tabs">
+                <li class="active"><a data-toggle="tab" href="#year1">Year 1</a></li>
+                <li><a data-toggle="tab" href="#year2">Year 2</a></li>
+                <li><a data-toggle="tab" href="#year3">Year 3</a></li>
+                <li><a data-toggle="tab" href="#year4">Year 4</a></li>
+              </ul>
+
+              <div class="tab-content">
+                <div id="year1" class="tab-pane fade in active">
+                  <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th class="col-md-6">Module</th>
+                        <th class="col-md-6">Result</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Computer Architecture</td>
+                        <td>A</td>
+                      </tr>
+                      <tr>
+                        <td>Fundamentals of Interface and Web Design</td>
+                        <td>A</td>
+                      </tr>
+                      <tr>
+                        <td>Software Development 1</td>
+                        <td>A</td>
+                        <tr>
+                          <td>Software Development 2</td>
+                          <td>A</td>
+                        </tr>
+                        <tr>
+                          <td>Business & Information Systems</td>
+                          <td>B</td>
+                        </tr>
+                        <tr>
+                          <td>Operating Systems Fundamentals</td>
+                          <td>A</td>
+                        </tr>
+                        <tr>
+                          <td>Discrete Mathematics</td>
+                          <td>A</td>
+                        </tr>
+                        <tr>
+                          <td>Statistics</td>
+                          <td>A</td>
+                        </tr>
+                        <tr>
+                          <td>Object Oriented Systems Analysis</td>
+                          <td>B</td>
+                        </tr>
+                        <tr>
+                          <td>Social Media Communications</td>
+                          <td>A</td>
+                        </tr>
+                        <tr>
+                          <td>Learning to Learn</td>
+                          <td>A</td>
+                        </tr>
+                        <tr>
+                          <td>Database Fundamentals</td>
+                          <td>A</td>
+                        </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div id="year2" class="tab-pane fade">
+                  <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th class="col-md-6">Module</th>
+                        <th class="col-md-6">Result</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Information Security</td>
+                        <td>A</td>
+                      </tr>
+                      <tr>
+                        <td>Management Science</td>
+                        <td>A</td>
+                      </tr>
+                      <tr>
+                        <td>Java Project</td>
+                        <td>A</td>
+                        <tr>
+                          <td>Object Oriented Analysis & Design</td>
+                          <td>B</td>
+                        </tr>
+                        <tr>
+                          <td>Software Development 3</td>
+                          <td>B+</td>
+                        </tr>
+                        <tr>
+                          <td>Software Development 4</td>
+                          <td>B</td>
+                        </tr>
+                        <tr>
+                          <td>Web Design & Development</td>
+                          <td>B</td>
+                        </tr>
+                        <tr>
+                          <td>Software Quality Assurance & Testing</td>
+                          <td>A</td>
+                        </tr>
+                        <tr>
+                          <td>Discrete Mathematics 2</td>
+                          <td>A</td>
+                        </tr>
+                        <tr>
+                          <td>Database Design & Programming</td>
+                          <td>B</td>
+                        </tr>
+                        <tr>
+                          <td>Networking 1</td>
+                          <td>A</td>
+                        </tr>
+                        <tr>
+                          <td>Networking 2</td>
+                          <td>B+</td>
+                        </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div id="year3" class="tab-pane fade">
+                  <h3>Year 3</h3>
+                  <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th class="col-md-6">Module</th>
+                        <th class="col-md-6">Result</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Advanced Databases</td>
+                        <td>A</td>
+                      </tr>
+                      <tr>
+                        <td>Cloud Services & Distributed Computing</td>
+                        <td>A</td>
+                      </tr>
+                      <tr>
+                        <td>Innovation & Enterpreneurship</td>
+                        <td>A</td>
+                        <tr>
+                          <td>Operation Systems</td>
+                          <td>A</td>
+                        </tr>
+                        <tr>
+                          <td>Web Application Development</td>
+                          <td>B</td>
+                        </tr>
+                        <tr>
+                          <td>Algorithms & Data Structures</td>
+                          <td>A</td>
+                        </tr>
+                        <tr>
+                          <td>Work Placement</td>
+                          <td>A</td>
+                        </tr>
+                        <tr>
+                          <td>Work Placement Project</td>
+                          <td>A</td>
+                        </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div id="year4" class="tab-pane fade">
+                  <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th class="col-md-6">Module</th>
+                        <th class="col-md-6">Result</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Social Media Analysis</td>
+                        <td>N/A</td>
+                      </tr>
+                      <tr>
+                        <td>Interactive Media Design</td>
+                        <td>N/A</td>
+                      </tr>
+                      <tr>
+                        <td>Enterprise Performance Architecture</td>
+                        <td>N/A</td>
+                        <tr>
+                          <td>Information Management</td>
+                          <td>N/A</td>
+                        </tr>
+                        <tr>
+                          <td>Enterprise Application Development</td>
+                          <td>N/A</td>
+                        </tr>
+                        <tr>
+                          <td>Final Year Project</td>
+                          <td>N/A</td>
+                        </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
           </div>
+          <div class="panel panel-default">
+            <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+              <h4 class="panel-title">
+                <img class="circular-icon" src="assets\dccbslogo.jpg">
+              </h4>
+            </div>
+            <div id="collapse2" class="panel-collapse collapse">
+              <div class="panel-body">Leaving Certificate - 345 points </div>
+            </div>
+          </div>
+
         </div>
-        <div class="panel panel-default">
-          <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapse2">
-            <h4 class="panel-title">
-              <img class="circular-icon" src="assets\dccbslogo.jpg">
-            </h4>
+
+      </div>
+    </div>
+
+    <div id="experience" class="information">
+      <h1>Experience</h1>
+      <h2>Work</h2>
+
+
+
+
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="contact-modal" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Contact Jason</h4>
           </div>
-          <div id="collapse2" class="panel-collapse collapse">
-            <div class="panel-body">Lorem </div>
+          <div class="modal-body">
+            <div class="alert alert-success alert-dismissable">
+              <button type="button" class="close btn btn-info" data-dismiss="alert" aria-hidden="true">&times;</button> Success!
+              Message sent successfully.
+            </div>
+
+            <form class="form-horizontal">
+              <div class="form-group">
+                <label class="control-label col-sm-2" for="email">Email:</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="email" placeholder="Enter your email" required="true">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="control-label col-sm-2" for="text">Message:</label>
+                <div class="col-sm-10">
+                  <textarea class="form-control" id="message" placeholder="Enter your message"></textarea>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                  <button class="btn btn-default contact-submit">Send Message</button>
+                </div>
+              </div>
+            </form>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
           </div>
         </div>
 
@@ -142,68 +402,13 @@
 
     </div>
 
-    <div id="experience" class="container information">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./js/scripts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+      crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous"></script>
 
-      <h1>Exprience</h1>
-
-    </div>
-
-  </div>
-
-  <!-- Modal -->
-  <div class="modal fade" id="contact-modal" role="dialog">
-    <div class="modal-dialog">
-
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Contact Jason</h4>
-        </div>
-        <div class="modal-body">
-          <div class="alert alert-success alert-dismissable">
-            <button type="button" class="close btn btn-info" data-dismiss="alert" aria-hidden="true">&times;</button> Success!
-            Message sent successfully.
-          </div>
-
-          <form class="form-horizontal">
-            <div class="form-group">
-              <label class="control-label col-sm-2" for="email">Email:</label>
-              <div class="col-sm-10">
-                <input type="email" class="form-control" id="email" placeholder="Enter your email" required="true">
-              </div>
-            </div>
-            <div class="form-group">
-              <label class="control-label col-sm-2" for="text">Message:</label>
-              <div class="col-sm-10">
-                <textarea class="form-control" id="message" placeholder="Enter your message"></textarea>
-              </div>
-            </div>
-
-            <div class="form-group">
-              <div class="col-sm-offset-2 col-sm-10">
-                <button class="btn btn-default contact-submit">Send Message</button>
-              </div>
-            </div>
-          </form>
-
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-
-    </div>
-
-  </div>
-
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-    crossorigin="anonymous"></script>
-  <script type="text/javascript" src="./js/scripts.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous"></script>
-
-  <body>
+    <body>
 
 </html>
