@@ -7,6 +7,10 @@
   width: 14.7em;
 }
 
+.alert {
+  display: none;
+}
+
 .btn.contact-me {
   padding: 14px 12px;
 }
