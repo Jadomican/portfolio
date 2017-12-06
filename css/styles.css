@@ -5,6 +5,11 @@
   border-bottom-left-radius: 50% 50%;
   height: 14.7em;
   width: 14.7em;
+  border: solid 1px blue;
+}
+
+body {
+  padding-top: 60px;
 }
 
 .alert {
@@ -33,13 +38,15 @@ body {
   */position: relative; 
 }
 
-#home {padding-top:50px;height:500px;}
+#home {padding-top:35px;height:500px;}
 #summary {padding-top:50px;height:500px;}
 #experience {padding-top:50px;height:500px;}
 #education {padding-top:50px;height:500px;}
 
 .jumbotron {
   background-image: url("https://www.designbolts.com/wp-content/uploads/2012/12/Dust-White-Seamless-pattern-for-website-background.jpg");
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 .social {
