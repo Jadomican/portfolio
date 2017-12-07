@@ -34,4 +34,20 @@ $(document).ready(function () {
         $('.alert').show()
         console.log("clicked");
     })
+
+    $("#collapse1").on("hide.bs.collapse", function () {
+        $(".showitt").html('<span class="glyphicon glyphicon-chevron-down fa-lg"></span> Show More');
+    });
+    $("#collapse1").on("show.bs.collapse", function () {
+        $(".showitt").html('<span class="glyphicon glyphicon-chevron-up fa-lg"></span> Show Less');
+    });
+
+    $("#collapse2").on("hide.bs.collapse", function () {
+        $(".showschool").html('<span class="glyphicon glyphicon-chevron-down fa-lg"></span> Show More');
+    });
+    $("#collapse2").on("show.bs.collapse", function () {
+        $(".showschool").html('<span class="glyphicon glyphicon-chevron-up fa-lg"></span> Show Less');
+    });
+
+
 });
