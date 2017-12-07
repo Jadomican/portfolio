@@ -49,5 +49,13 @@ $(document).ready(function () {
         $(".showschool").html('<span class="glyphicon glyphicon-chevron-up fa-lg"></span> Show Less');
     });
 
+    $('.grow').hover(function() {
+        $(this).addClass('transition');
+    
+    }, function() {
+        $(this).removeClass('transition');
+    });
+
+
 
 });
