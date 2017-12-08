@@ -12,6 +12,11 @@
   height: 7em;
   width: auto;
   border-radius: 10px;
+  border: solid black 1px;
+}
+
+p { 
+  word-spacing: normal;
 }
 
 body {
@@ -93,3 +98,19 @@ body {
 -o-transition: all .4s ease-in-out;
 -ms-transition: all .4s ease-in-out;
 }
+
+iframe {
+  display: block;
+  margin: auto;
+  border: solid 1px black;
+  border-radius: 10px;  
+}
+
+@media screen and (max-width: 700px) {
+  iframe {
+    display: block;
+    margin: auto;
+    width: auto;
+    border: solid 1px black;
+    border-radius: 10px;  
+  }

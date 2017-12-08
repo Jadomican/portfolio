@@ -49,6 +49,20 @@ $(document).ready(function () {
         $(".showschool").html('<span class="glyphicon glyphicon-chevron-up fa-lg"></span> Show Less');
     });
 
+    $("#collapse3").on("hide.bs.collapse", function () {
+        $(".showaws").html('<span class="glyphicon glyphicon-chevron-down fa-lg"></span> Show More');
+    });
+    $("#collapse3").on("show.bs.collapse", function () {
+        $(".showaws").html('<span class="glyphicon glyphicon-chevron-up fa-lg"></span> Show Less');
+    });
+
+    $("#collapse4").on("hide.bs.collapse", function () {
+        $(".showexe").html('<span class="glyphicon glyphicon-chevron-down fa-lg"></span> Show More');
+    });
+    $("#collapse4").on("show.bs.collapse", function () {
+        $(".showexe").html('<span class="glyphicon glyphicon-chevron-up fa-lg"></span> Show Less');
+    });
+
     $('.grow').hover(function() {
         $(this).addClass('transition');
     
