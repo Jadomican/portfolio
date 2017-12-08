@@ -55,10 +55,28 @@ body {
   position: relative; 
 }
 
-#home {padding-top:70px;height:auto;}
-#summary {padding-top:50px;height:auto;}
-#experience {padding-top:50px;height:auto;}
-#education {padding-top:50px;height:auto;}
+#home {
+  padding-top:70px;height:auto;
+}
+#summary {
+  padding-top:50px;height:auto;
+}
+#experience {
+  padding-top:50px;height:auto;
+}
+#education {
+  padding-top:50px;height:auto;
+}
+#projects {
+  padding-top:50px;height:auto;
+}
+#skills {
+  padding-top:50px;height:auto;
+}
+#interests {
+  padding-top:50px;height:auto;
+}
+
 
 .jumbotron {
   background-image: url("https://www.designbolts.com/wp-content/uploads/2012/12/Dust-White-Seamless-pattern-for-website-background.jpg");
