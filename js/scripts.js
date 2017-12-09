@@ -35,31 +35,31 @@ $(document).ready(function () {
         console.log("clicked");
     })
 
-    $("#collapse1").on("hide.bs.collapse", function () {
+    $("#collapse3").on("hide.bs.collapse", function () {
         $(".showitt").html('<span class="glyphicon glyphicon-chevron-down fa-lg"></span> Show More');
     });
-    $("#collapse1").on("show.bs.collapse", function () {
+    $("#collapse3").on("show.bs.collapse", function () {
         $(".showitt").html('<span class="glyphicon glyphicon-chevron-up fa-lg"></span> Show Less');
     });
 
-    $("#collapse2").on("hide.bs.collapse", function () {
+    $("#collapse4").on("hide.bs.collapse", function () {
         $(".showschool").html('<span class="glyphicon glyphicon-chevron-down fa-lg"></span> Show More');
     });
-    $("#collapse2").on("show.bs.collapse", function () {
+    $("#collapse4").on("show.bs.collapse", function () {
         $(".showschool").html('<span class="glyphicon glyphicon-chevron-up fa-lg"></span> Show Less');
     });
 
-    $("#collapse3").on("hide.bs.collapse", function () {
+    $("#collapse1").on("hide.bs.collapse", function () {
         $(".showaws").html('<span class="glyphicon glyphicon-chevron-down fa-lg"></span> Show More');
     });
-    $("#collapse3").on("show.bs.collapse", function () {
+    $("#collapse1").on("show.bs.collapse", function () {
         $(".showaws").html('<span class="glyphicon glyphicon-chevron-up fa-lg"></span> Show Less');
     });
 
-    $("#collapse4").on("hide.bs.collapse", function () {
+    $("#collapse2").on("hide.bs.collapse", function () {
         $(".showexe").html('<span class="glyphicon glyphicon-chevron-down fa-lg"></span> Show More');
     });
-    $("#collapse4").on("show.bs.collapse", function () {
+    $("#collapse2").on("show.bs.collapse", function () {
         $(".showexe").html('<span class="glyphicon glyphicon-chevron-up fa-lg"></span> Show Less');
     });
 
