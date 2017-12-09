@@ -31,6 +31,10 @@ a:hover .fa {
     text-decoration: none;
 }
 
+.fa {
+  text-decoration: none !important;
+}
+
 .btn.contact-me {
   padding: 14px 12px;
 }
@@ -170,6 +174,14 @@ iframe {
 
 .carousel-img {
   height: 255px;
+}
+
+.row {
+  margin-bottom: 15px;
+}
+
+.project-title {
+  text-align: center;
 }
 
 .carousel-inner > .item > a > img, .carousel-inner > .item > img {
