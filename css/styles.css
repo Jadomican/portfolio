@@ -130,6 +130,7 @@ iframe {
 
 .pbar {
   overflow: hidden;
+  margin-top: 5px;
 }
 
 .progress-label {
@@ -140,7 +141,15 @@ iframe {
 .progress {
   margin-top: 1.5rem;
   height: 4rem !important;
+  background-color: white;
 }
+
+.progress-bar {
+  background: #000046;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1CB5E0, #0a6b92); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  line-height: 40px !important;
+  }
 
 .row {
   display: -webkit-box;
@@ -158,6 +167,13 @@ iframe {
   font-size: 40px;
 }
 
+.carousel-img {
+  height: 255px;
+}
+
+.carousel-inner > .item > a > img, .carousel-inner > .item > img {
+  height: 255px !important;
+}
 
 @media screen and (max-width: 700px) {
   iframe {
