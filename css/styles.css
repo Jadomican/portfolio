@@ -100,6 +100,11 @@ body {
     margin-left: 0.5em; 
 }
 
+textarea {
+  resize: none;
+}
+
+
 .tooltip {
   font-size: 13px !important; 
 }
@@ -234,7 +239,6 @@ iframe {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
   border-radius: 13px;
 }
 
