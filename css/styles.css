@@ -53,9 +53,6 @@ font-size: 20px;
 }
 
 body {
-  /*
-  background-image: url("http://www.designbolts.com/wp-content/uploads/2012/12/Dust-White-Seamless-pattern-for-website-background.jpg");
-  */
   position: relative; 
 }
 
@@ -242,5 +239,21 @@ iframe {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #777777; 
+  background: hsl(0, 0%, 47%); 
+}
+
+@media (max-width: 990px) {
+  .navbar-header {
+      float: none;
+  }
+  .navbar-left,.navbar-right {
+      float: none !important;
+  }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+  }
 }

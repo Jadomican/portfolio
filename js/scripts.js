@@ -23,16 +23,18 @@ $(document).ready(function () {
     });
 
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
-        // mobile code..
+        // Don't use tooltips on mobile (would require double tap)
     }
     else {
-        // Don't use tooltips on mobile (would require double tap)
         $('[data-toggle="tooltip"]').tooltip();
     }
 
-    $("#contact-form").on('submit', function(e) {
+    $("#contact-form").on('submit', function (e) {
         e.preventDefault();
-        $('.alert').show()
+        $('.alert').show();
+        setTimeout(function () {
+            $('#contact-modal').modal('hide');
+        }, 4000);
     });
     
     $("#collapse3").on("hide.bs.collapse", function () {
