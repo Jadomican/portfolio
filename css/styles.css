@@ -128,6 +128,11 @@ iframe {
   border-radius: 10px;  
 }
 
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:focus, .dropdown-menu > .active > a:hover {
+  color: #555555 !important;
+  background-color: #e7e7e7 !important;
+}
+
 .skill-icon {
   font-size: 8rem;
 }
@@ -176,6 +181,8 @@ iframe {
   height: 255px;
 }
 
+
+
 .row {
   margin-bottom: 15px;
 }
@@ -186,6 +193,18 @@ iframe {
 
 .carousel-inner > .item > a > img, .carousel-inner > .item > img {
   height: 255px !important;
+}
+
+.carousel-inner {
+  border-radius: 15px;
+}
+
+.carousel-control.left {
+  border-radius: 15px;
+}
+
+.carousel-control.right {
+  border-radius: 15px;
 }
 
 .project-img {
