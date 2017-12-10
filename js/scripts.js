@@ -30,11 +30,11 @@ $(document).ready(function () {
         $('[data-toggle="tooltip"]').tooltip();
     }
 
-    $('.contact-submit').click(function () {
+    $("#contact-form").on('submit', function(e) {
+        e.preventDefault();
         $('.alert').show()
-        console.log("clicked");
-    })
-
+    });
+    
     $("#collapse3").on("hide.bs.collapse", function () {
         $(".showitt").html('<span class="glyphicon glyphicon-chevron-down fa-lg"></span> Show More');
     });
