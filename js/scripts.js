@@ -34,7 +34,7 @@ $(document).ready(function () {
         $('.alert').show();
         setTimeout(function () {
             $('#contact-modal').modal('hide');
-        }, 4000);
+        }, 2000);
     });
     
     $("#collapse3").on("hide.bs.collapse", function () {
