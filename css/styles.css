@@ -188,6 +188,12 @@ iframe {
   text-align: center;
 }
 
+@media screen and (max-width: 700px) {
+  .center-title {
+    text-align: center;
+  }
+  
+
 .carousel-inner > .item > a > img, .carousel-inner > .item > img {
   height: 255px !important;
 }
